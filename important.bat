@@ -5,5 +5,5 @@ git add .
 git status
 set /p a=:
 git commit -m "%a%"
-git push origin "main"
+git push origin "master"
 pause
