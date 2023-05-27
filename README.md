@@ -1,7 +1,8 @@
 # Kpro - High Quality Korean Test Question Dataset
-___
-## About Kpro
+
 **Kpro**는 '인사혁신처 사이버국가고시센터'에서 제공하는 '국가공무원 필기시험 문제' 데이터를 정형화하여, 언어 모델(Language Model) 학습 등에 활용할 수 있도록 제공하는 오픈소스 프로젝트입니다.
+
+문제 데이터는 [사이버국가고시센터](https://www.gosi.kr/)에서 가져왔습니다.
 
 
 ## Data description
@@ -14,6 +15,7 @@ ___
 - `answer`: 정답 번호(One-index)
 - `question_type`: 문제 유형 (`describe, choose_all, choose, list, connect, blank`)
 - `question_positive`: 문제 설명이 옳은 것(긍정)을 고르는 지의 여부(`1, -1, 0`)
+- Columns은 탭으로 구분되어있습니다. (`.tsv`)
 
 
 ## Current Progress
