@@ -7,7 +7,7 @@
 
 ## Data description
 
-각 파일은 `where`, `subject`, `question`, `choices`, `answer`, `question_type`, `question_positive`의 columns으로 구성되어있습니다. (.tsv)
+각 파일은 `where`, `subject`, `question`, `choices`, `answer`, `question_type`, `question_positive`의 Columns으로 구성되어있습니다.
 - `where`: 해당 문제의 출처
 - `subject`: 과목 명
 - `question`: 문제 및 제시문
